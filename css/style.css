@@ -1,0 +1,202 @@
+body{
+	background-color: #EDD8E9;
+	width: 1000px;
+  margin: 0 auto;
+}
+
+@font-face{
+font-family:'Anton', sans-serif;
+src:url('https://fonts.googleapis.com/css?family=Anton');
+}
+
+h1{
+  font-size: 3em;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+@-webkit-keyframes onecircle{
+    
+    0% {
+      background-color:red; 
+      width: 50px;
+      height: 60px;
+    }
+
+    10% {
+      background-color:orange;
+      width: 100px;
+      height: 110px;
+      transform: rotate(30deg);
+    }
+
+    20% {
+      background-color:yellow;
+      width: 124px;
+      height: 140px;
+    }
+
+    30% {
+      background-color:green;
+      width: 230px;
+      height: 190px;
+
+    }
+
+    40% {
+      background-color:blue;
+      width:250px;
+      height: 300px;
+      transform: rotate(60deg);
+    }
+
+    50% {
+      background-color:purple;
+      width: 400px;
+      height: 500px;
+      opacity: 0.5;
+    }
+
+    60% {
+      background-color:#B54685;
+      width: 300px;
+      height: 300px;
+      
+
+    }
+    70% {
+      background-color:#37808A;
+      width: 320px;
+      height: 560px;
+    }
+
+    80% {
+      background-color:#ABD352;
+      width: 360px;
+      height: 410px;
+      transform: rotate(90deg);
+
+    }
+
+    90% {
+      background-color:#FFF9E8;
+      width: 320px;
+      height: 600px;
+    }
+    100% {
+      background-color:#C14B7B;
+      width: 400px;
+      height: 500px;
+      transform: rotate(100deg);
+    }
+
+	
+  }
+
+#rectangle{
+	width: 400px;
+	height: 500px;
+	background-color: white;
+	-webkit-animation-name: onecircle;
+	-webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction:alternate;
+  margin-left: 600px;
+  margin-top: 45px;
+  
+	} 
+
+  @-webkit-keyframes onerectangle{
+    
+    0% {
+      background-color:red; 
+      width: 5.6px;
+      height: 10px;
+    }
+
+    10% {
+      background-color:orange;
+      width: 20px;
+      height: 11px;
+      transform: rotate(30deg);
+    }
+
+    20% {
+      background-color:yellow;
+      width: 22.4px;
+      height: 14px;
+    }
+
+    30% {
+      background-color:green;
+      width: 33px;
+      height: 19px;
+
+    }
+
+    40% {
+      background-color:blue;
+      width:45px;
+      height: 30px;
+      transform: rotate(60deg);
+    }
+
+    50% {
+      background-color:purple;
+      width: 60px;
+      height: 500px;
+      opacity: 0.5;
+    }
+
+    60% {
+      background-color:#B54685;
+      width: 30px;
+      height: 30px;
+
+
+    }
+    70% {
+      background-color:#37808A;
+      width: 62px;
+      height: 56px;
+    }
+
+    80% {
+      background-color:#ABD352;
+      width: 700px;
+      height: 510px;
+      transform: rotate(90deg);
+
+    }
+
+    90% {
+      background-color:#FFF9E8;
+      width: 420px;
+      height: 800;
+    }
+
+    100% {
+      background-color:#C14B7B;
+      width: 800px;
+      height: 900px;
+      transform: rotate(100deg);
+    }
+  }
+
+#rectangler{
+  width: 80%;
+  height: 90%;
+  background-color: white;
+  -webkit-animation-name: onerectangle;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction:alternate;
+  animation-timing-function: linear;
+  margin-bottom:50px;
+  margin-right: 40px;
+  top:70px;
+  left: 70px;
+  } 
+  
+
