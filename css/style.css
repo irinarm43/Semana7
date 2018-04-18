@@ -5,7 +5,8 @@ body{
 }
 
 @font-face{
-font-family: 'Gugi', cursive;
+font-family: 'Anton', sans-serif;
+src:url('https://fonts.googleapis.com/css?family=Anton');
 }
 
 h1{
