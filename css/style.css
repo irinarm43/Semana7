@@ -5,8 +5,7 @@ body{
 }
 
 @font-face{
-font-family:'Anton', sans-serif;
-src:url('https://fonts.googleapis.com/css?family=Anton');
+font-family: 'Gugi', cursive;
 }
 
 h1{
@@ -14,6 +13,8 @@ h1{
   text-align: center;
   color: white;
   font-weight: bold;
+  font-family: 'Gugi', cursive;
+
 }
 
 @-webkit-keyframes onecircle{
